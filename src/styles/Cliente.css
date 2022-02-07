@@ -1,0 +1,79 @@
+.cliente {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cliente .container{
+    
+    height: 50%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .cliente .container h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+  }
+  
+  form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  
+  form select {
+    margin-top: 40px;
+    height: 20px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  input::placeholder,
+  select::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: grey;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
