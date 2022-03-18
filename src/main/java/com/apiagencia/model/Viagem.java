@@ -29,8 +29,8 @@ public class Viagem {
 	@Column(nullable=true)
 	private String destinoViagem;
 	
-	@Column(name="preço")
-	private float preco;
+	@Column(nullable=true)
+	private String preco;
 	
 	
 }
