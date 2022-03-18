@@ -8,32 +8,26 @@ import MinasGerais from '../assets/MG.jpg';
 export const MenuList = [
   {
     name: "Rio de Janeiro-RJ",
-    image: Cristo,
-    price: 400.00,
+    image: Cristo
   },
   {
     name: "Salvador-BH",
-    image: Salvador,
-    price: 550.00,
+    image: Salvador
   },
   {
     name: "São Paulo-SP",
-    image: SaoPaulo,
-    price: 355.00,
+    image: SaoPaulo
   },
   {
     name: "Santa Catarina-SC",
-    image: SantaCatarina,
-    price: 1200.00,
+    image: SantaCatarina
   },
   {
     name: "Fortaleza-CE",
-    image: Fortaleza,
-    price: 950.00,
+    image: Fortaleza
   },
   {
     name: "Minas Gerais-MG",
-    image: MinasGerais,
-    price: 1997.99,
+    image: MinasGerais
   },
 ];

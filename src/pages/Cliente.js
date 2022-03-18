@@ -27,22 +27,14 @@ const Cliente = ({id, viagem}) => {
             "email": value.email,
             "cpf": value.cpf,
             "destinoViagem":value.destinoViagem,
+            "preco":value.preco
             
         }).catch(error=>console.log(error))
 
     
     }
 
-    const handleUpdateUsuario=async(value, id)=>{
-        await api.put("/viagem",{
-            "id": id,
-            "nome": value.nome,
-            "email": value.email,
-            "cpf":value.cpf,
-            "destinoViagem":value.destinoViagem,
-            
-        })
-    }
+
 
     return(
         <div className="cliente">
@@ -67,6 +59,9 @@ const Cliente = ({id, viagem}) => {
                     <option value="MG">Minas Gerais - MG</option>
                     <option value="BH">Salvador - BH</option>
                 </select>
+                <label htmlFor="message">Preço R$</label>
+                <input id="preco" name="preco" placeholder="Digite o valor da Sua Viagem..." type="text" required />
+                
                 
                 <button onClick={()=>alert('Passagem comprada com Sucesso')} type="submit"> Comprar</button>
             </form>
